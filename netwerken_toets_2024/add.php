@@ -11,7 +11,7 @@
 <?php
 if(isset($_POST['add']))
 {
-include 'config/db_config.php';
+include 'config/db_config_example.php';
   $student_id=$_POST['student_id'];
   $name=$_POST['name'];
   $side_job=$_POST['side_job'];
